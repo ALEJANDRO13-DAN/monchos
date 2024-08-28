@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #87CEEB; /* Cielo celeste */
+}
+
+.perro {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.cabeza {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    top: 20px;
+    left: 50px;
+}
+
+.oreja {
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.oreja.izquierda {
+    top: 0;
+    left: 20px;
+    transform: rotate(-30deg);
+}
+
+.oreja.derecha {
+    top: 0;
+    right: 20px;
+    transform: rotate(30deg);
+}
+
+.ojo {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    top: 35px;
+}
+
+.ojo.izquierdo {
+    left: 30px;
+}
+
+.ojo.derecho {
+    right: 30px;
+}
+
+.nariz {
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50% / 40%;
+    top: 60px;
+    left: calc(50% - 10px);
+}
+
+.boca {
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    border-bottom: 3px solid black;
+    border-radius: 50%;
+    top: 75px;
+    left: calc(50% - 15px);
+}
+
+.cuerpo {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50% / 60%;
+    top: 100px;
+    left: 25px;
+}
+
+.cola {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50% / 40%;
+    top: 30px;
+    right: -25px;
+    transform: rotate(30deg);
+}
+
+.pata {
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.pata-izquierda-delantera {
+    top: 150px;
+    left: 40px;
+}
+
+.pata-derecha-delantera {
+    top: 150px;
+    right: 40px;
+}
+
+.pata-izquierda-trasera {
+    top: 180px;
+    left: 70px;
+}
+
+.pata-derecha-trasera {
+    top: 180px;
+    right: 70px;
+}
+
+.mancha {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: brown;
+    border-radius: 50%;
+    top: 20px;
+    left: 10px;
+}
+
+.mancha.grande {
+    width: 80px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+}
